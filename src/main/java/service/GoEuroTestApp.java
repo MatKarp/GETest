@@ -28,11 +28,9 @@ public class GoEuroTestApp {
                 fileWritter(filteredList);
             } catch (Exception e) {
                 logger.error(e.getMessage(), e.getCause());
-                e.printStackTrace();
             }
 
         }else {
-            System.out.println("Command line arguments are empty!");
             logger.info("Command line arguments are empty!");
         }
     }
